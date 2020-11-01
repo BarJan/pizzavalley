@@ -1,0 +1,448 @@
+html{
+    background: url(images/web-Recovered.jpg) no-repeat center fixed;
+    background-size: 100% 100%;
+}
+
+*:not(i):not(.fa fa-phone){
+        font-family: arial !important;
+    }
+
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+.wrapper{
+    background-color: #cccccc;
+}
+
+.wrapper-text{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20.5%;
+    width: 18%;
+    height: 37%;
+    color: white;
+}
+
+#baner{
+    text-align: left;
+    position: relative;
+    width: 100%;
+    top:2%;
+    left: 0;
+    font-family: arial;
+    font-size: 4.8vw;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-bottom: 5%;
+    line-height: 3.9vw;
+}
+
+h3{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    width: 75%;
+    background-color: white;
+    color: black;
+    top: 8%;
+    left: 8%;
+    margin-left: 0;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+h2{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 6vw;
+    font-stretch: ultra-condensed;
+}
+
+h4{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#span1{
+    font-size: 2vw;
+}
+#span2{
+    font-size: 0.9vw;
+}
+
+.wrapper-form{
+    text-align: center;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20.3%;
+    color: white;
+}
+#call{
+    visibility: hidden;
+    visibility: collapse;
+}
+
+form{
+    direction: rtl;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    text-align: center;
+    align-content: center;
+    width: 75%;
+    background-color: black;
+}
+
+.input-text{
+    position: relative;
+    direction: rtl;
+    text-align: center;
+    width: 99%;
+    line-height: 2vw;
+    background-color: white;
+    margin-top: 3%;
+    font-size: 1.01vw;
+}
+
+#nameReq{
+    visibility: hidden;
+    position: absolute;
+    top:13.5vw;
+    left: 2vw;
+    color: red;
+}
+
+#telReq{
+    visibility:hidden;
+    position: absolute;
+    top:16.5vw;
+    left: 2vw;
+    color: red;
+}
+
+#send{
+    border-style: none;
+    text-align: center;
+    width: 15.5vw;
+    line-height: 2vw;
+    background-color: #48b1b8;
+    margin-top: 3%;
+    margin-bottom: 5%;  
+    font-size: 1.01vw;
+}
+
+#logo{
+    position: relative;
+    left: 7.5vw;
+    top: 10%;
+    width: 9vw;
+}
+
+#details{
+    text-align: left;
+    position: relative;
+    width: 10vw;
+    margin-bottom: 30%;
+    font-size: 1.005vw;
+}
+#check1,#check2{
+    position: absolute;
+    right: 5%;
+    margin-top: 5%;
+}
+
+#checklabel1{
+    text-align: right;   
+    position: absolute;
+    right: 15%;
+    margin-top: 5%;
+    font-size: 0.68vw;
+}
+#checklabel2{
+    text-align: right;   
+    position: absolute;
+    right: 15%;
+    margin-top: 5%;
+    font-size: 0.68vw;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 95%;
+}
+
+p{
+    direction: rtl;
+    text-align: right;
+    float: right;
+    font-size: 1vw;
+}
+
+#breakline{
+    display: none;
+}
+
+#foot_logo{
+    position: absolute;
+    bottom: 50%;
+    left: 6vw;
+    width: 1vw;
+}
+
+@media only screen and (max-width:740px) {
+  /* For mobile phones: */
+     *:not(i):not(.fa fa-phone){
+        font-family: arial !important;
+    }
+    
+    html{
+        background: url(images/mobile.jpg) no-repeat center fixed;
+        background-size: 100% 100%; 
+    }
+    .wrapper{
+        background: transparent;
+    }
+    .wrapper-text{
+        position: absolute;
+        width: 50%;
+        left: 50%;
+        top:0;
+    }
+    
+    #baner{
+        text-align: center;
+        position: absolute;
+        width: 50%;
+        top:0;
+        left: 50%;
+        margin-right: 0;
+        font-family: arial;
+        font-size: 6.8vw;
+        font-weight: 750;
+        margin-top: 5%;
+        margin-left: 0;
+        margin-bottom: 5%;
+        line-height: 6vw;
+    }
+
+    h3{
+        direction: rtl;
+        text-align: center;
+        position: relative;
+        top: 17vw;
+        left: 24vw;
+        font-stretch: ultra-expanded;
+        margin-bottom: 0;
+        width: 25vw;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: white;
+        color: black;
+        font-size: 3vw;
+        font-weight: 600;
+        
+    }
+
+    h2{
+        direction: rtl;
+        text-align: center;
+        position: relative;
+        top: 17vw;
+        left: 9vw;
+        font-weight: 700;
+        font-size: 11vw;
+    }
+
+    h4{
+        direction: rtl;
+        text-align: center;
+        position: relative;
+        top: 16vw;
+        left: 10vw;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    #span1{
+        position: relative;
+        font-size: 3.5vw;
+        bottom: 5vw;
+    }
+    #span2{
+        font-size: 2.5vw;
+        right: 0.5vw;
+        top: 0.02vw;
+    }
+    
+    .wrapper-form{
+        position: absolute;
+        width: 100%;
+        top: 70vw;
+        background-color: transparent;
+    }
+    form{
+        direction: rtl;
+        position: absolute;
+        top: 45vw;
+        left: 10%;
+        text-align: center;
+        align-content: center;
+        width: 70%;
+        background-color: transparent;
+        line-height: 7vw;
+    }
+    .input-text{
+        position: relative;
+        direction: rtl;
+        text-align: center;
+        width: 99%;
+        background-color: white;
+        margin-top: 2vw;
+        font-size: 5vw;
+        left: 5%;
+        line-height: 9vw;
+    }
+
+    #send{
+        position: absolute;
+        border-style: none;
+        text-align: center;
+        width: 100%;
+        background-color: #48b1b8;
+        margin-top: 10vw;
+        margin-bottom: 5%;  
+        font-size: 5vw;
+        left: 5%;
+        line-height: 9vw;   
+    }
+    #logo{
+        position: relative;
+        left: 35vw;
+        margin: 0 0 0 0;
+        width: auto;
+        top: 25vw;        
+    }
+    
+    #call{
+        direction: rtl;
+        visibility: visible;
+        position: absolute;
+        color: white;
+        text-decoration-line: none; 
+        top: 35vw;
+        right: 16vw;
+        border-style: none;
+        text-align: center;
+        width: 70%;
+        background-color: #48b1b8;
+        cursor: pointer;
+        line-height: 7vw;
+        font-size: 6.5vw;
+    }
+    
+    a:visited { text-decoration: none; color:white; }
+    a:hover { text-decoration: none; color:white; }
+    a:focus { text-decoration: none; color:white; }
+    a:hover, a:active { text-decoration: none; color:white}
+    
+    .fa fa-phone{
+        direction: ltr;
+        text-decoration-line: none;
+    }
+    
+    #details{
+        text-align: center;
+        position: relative;
+        margin-left: 5%;
+        font-size: 5vw;
+        top: 1vw;
+    }
+    #check1{
+        position: absolute;
+        top: 29vw;
+        right: 0;
+    }
+    #check2{
+        position: absolute;
+        top: 33vw;
+        right: 0;
+    }
+    #checklabel1{
+        text-align: right;   
+        position: absolute;
+        top: 29vw;
+        right: 5vw;
+        margin: 1.8vw 0 0 0;
+        font-size: 2vw;
+    }
+    
+    #checklabel2{
+        text-align: right;   
+        position: absolute;
+        top: 33vw;
+        right: 5vw;
+        margin: 1.8vw 0 0 0;
+        font-size: 2vw;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 3vw;
+        margin-bottom: 3vw;
+        margin-left: 14vw;
+        color: white;
+        width: 70%;
+        border-bottom-color: white;
+        border-bottom-style: outset;
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+    #foot_logo{
+        position: absolute;
+        left: 53vw;
+        margin-right: 0;
+        width: 75vw;
+        bottom: 3.3vw;
+        
+    }
+    
+    p{
+        bottom: 3vw;
+        position: absolute;
+        direction: rtl;
+        text-align: right;
+        font-size: 1.8vw;
+        width: 55vw;
+        right: 19vw;
+    }
+    #breakline{
+        display: block;
+}
+
+    
+}
