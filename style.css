@@ -1,6 +1,7 @@
 html{
     background: url(images/web-Recovered.jpg) no-repeat center fixed;
     background-size: 100% 100%;
+    font-family: arial;
 }
 
 *:not(i):not(.fa fa-phone){
@@ -8,7 +9,1130 @@ html{
     }
 
 body{
-    font-family: Arial;
+    font-family: arial;
+    margin: 0;
+}
+
+.wrapper{
+    background-color: #cccccc;
+}
+
+.wrapper-text{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20.5%;
+    width: 18%;
+    height: 37%;
+    color: white;
+}
+
+#baner{
+    text-align: left;
+    position: relative;
+    width: 100%;
+    top:2%;
+    left: 0;
+    font-family: arial;
+    font-size: 4.8vw;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-bottom: 5%;
+    line-height: 3.9vw;
+}
+
+h3{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    width: 75%;
+    background-color: white;
+    color: black;
+    top: 8%;
+    left: 8%;
+    margin-left: 0;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+h2{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 6vw;
+    font-stretch: ultra-condensed;
+}
+
+h4{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#span1{
+    font-size: 2vw;
+}
+#span2{
+    font-size: 0.9vw;
+}
+
+.wrapper-form{
+    text-align: center;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20.3%;
+    color: white;
+}
+#call{
+    visibility: hidden;
+}
+
+form{
+    direction: rtl;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    text-align: center;
+    align-content: center;
+    width: 75%;
+    background-color: black;
+}
+
+.input-text{
+    position: relative;
+    direction: rtl;
+    text-align: center;
+    width: 99%;
+    line-height: 2vw;
+    background-color: white;
+    margin-top: 3%;
+    font-size: 1.01vw;
+}
+
+#nameReq{
+    visibility: hidden;
+    position: absolute;
+    top:13.5vw;
+    left: 2vw;
+    color: red;
+}
+
+#telReq{
+    visibility: hidden;
+    position: absolute;
+    top:16.5vw;
+    left: 2vw;
+    color: red;
+}
+
+#send{
+    border-style: none;
+    text-align: center;
+    width: 15.5vw;
+    line-height: 2vw;
+    background-color: #48b1b8;
+    margin-top: 3%;
+    margin-bottom: 5%;  
+    font-size: 1.01vw;
+}
+
+#logo{
+    position: relative;
+    left: 7.5vw;
+    top: 10%;
+    width: 9vw;
+}
+
+#details{
+    text-align: left;
+    position: relative;
+    width: 10vw;
+    margin-bottom: 30%;
+    font-size: 1.005vw;
+}
+#check1,#check2{
+    position: absolute;
+    right: 5%;
+    margin-top: 5%;
+}
+
+#checklabel1{
+    text-align: right;   
+    position: absolute;
+    right: 15%;
+    margin-top: 5%;
+    font-size: 0.68vw;
+}
+#checklabel2{
+    text-align: right;   
+    position: absolute;
+    right: 15%;
+    margin-top: 5%;
+    font-size: 0.68vw;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 95%;
+}
+
+p{
+    direction: rtl;
+    text-align: right;
+    float: right;
+    font-size: 1vw;
+}
+
+#breakline{
+    display: none;
+}
+
+#foot_logo{
+    position: absolute;
+    bottom: 50%;
+    left: 6vw;
+    width: 1vw;
+}
+
+/*************************************************************************/
+
+@media only screen and (max-width:340px) {
+  /* For mobile phones: */
+    
+    *:not(i):not(.fa fa-phone){
+        font-family: arial !important;
+    }
+    
+    html{
+         background: url(images/mobile.jpg) no-repeat center fixed;
+        background-size: 100% 100%; 
+    }
+    
+    body{
+        
+        width: 100%;
+        height: 100%;
+    }
+    
+    .wrapper{
+        background: transparent;
+        width: 50%;
+        top:0;
+    }
+    .wrapper-text{
+
+        position: relative;
+        width: 50%;
+        left: 85vw;
+        top:0;
+    }
+    
+    #baner{
+        text-align: center;
+        position: absolute;
+        width: 30%;
+        top:0;
+        left: -5vw;
+        margin-right: 0;
+        font-family: arial;
+        font-size: 11.8vw;
+        font-weight: 750;
+        margin-top: 5%;
+        margin-left: 0;
+        margin-bottom: 5%;
+        line-height: 10vw;
+    }
+
+    h3{
+        direction: rtl;
+        text-align: center;
+        position: absolute;
+        top: 23vw;
+        left: 0vw;
+        font-stretch: ultra-expanded;
+        margin-bottom: 0;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: white;
+        color: black;
+        font-size: 3.5vw;
+        font-weight: 600;
+        
+    }
+
+    h2{
+        direction: rtl;
+        text-align: center;
+        position: relative;
+        top: 27vw;
+        left: 0vw;
+        font-weight: 700;
+        font-size: 11vw;
+    }
+
+    h4{
+        direction: rtl;
+        text-align: right;
+        position: relative;
+        width: 150%;
+        top: 28vw;
+        right: 12vw;
+        font-size: 4vw;
+        font-weight: 450;
+    }
+
+    #span1{
+        position: relative;
+        font-size: 3.5vw;
+        bottom: 5vw;
+    }
+    #span2{
+        font-size: 2.5vw;
+        right: 0.5vw;
+        top: 0.02vw;
+    }
+    
+    .wrapper-form{
+        position: absolute;
+        width: 100%;
+        top: 95vw;
+        background-color: transparent;
+    }
+    
+    #logo{
+        visibility: collapse;
+        visibility: hidden;
+    }
+    
+    #logom{
+
+        visibility: visible;
+        position: absolute;
+        right: 0.9vw;
+        margin: 0 0 0 0;
+        width: 30vw;
+        top: -2vw;        
+    }
+    
+
+    #call{
+        text-decoration: none;
+        color: white;
+        direction: rtl;
+        visibility: visible;
+        position: absolute;
+        color: white;
+        text-decoration-line: none; 
+        top: 25vw;
+        right: 8vw;
+        border-style: none;
+        text-align: center;
+        width: 70%;
+        background-color: #48b1b8;
+        cursor: pointer;
+        line-height: 7vw;
+        font-size: 6.5vw;
+    }
+    
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+     a:visited { text-decoration: none; color:white; }
+    a:hover { text-decoration: none; color:white; }
+    a:focus { text-decoration: none; color:white; }
+    a:hover, a:active { text-decoration: none; color:white}
+    
+    .fa fa-phone{
+        direction: ltr;
+        text-decoration-line: none;
+    }
+    
+    #details{
+        direction: rtl;
+        position: absolute;
+        top: 5vw;
+        left: 10vw;
+        width: 70%;
+        font-size: 5vw;
+        background-color: black;
+    }
+    
+    form{
+        direction: rtl;
+        position: absolute;
+        top: 30vw;
+        left: 23vw;
+        text-align: center;
+        align-content: center;
+        width: 70%;
+        background-color: transparent;
+        line-height: 7vw;
+    }
+
+    .input-text{
+        position: relative;
+        direction: rtl;
+        text-align: center;
+        width: 75vw;
+        top: 6vw;
+        left: 3vw;
+        line-height: 10vw;
+        background-color: white;
+        margin-top: 3%;
+        font-size: 4.5vw;
+
+    }
+
+    #nameReq{
+    visibility: hidden;
+    position: absolute;
+    top:50.5vw;
+    left: 25vw;
+    color: red;
+}
+
+#telReq{
+    visibility:hidden;
+    position: absolute;
+    top:65.5vw;
+    left: 25vw;
+    color: red;
+}
+    
+    #check1{
+        direction: rtl;
+        position: absolute;
+        right: -20vw;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        top: 58vw;
+        font-size: 2vw;
+        width: 45vw;
+    }
+    #check2{
+        direction: rtl;
+        position: absolute;
+        right: -20vw;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        top: 65vw;
+        font-size: 2vw;
+        width: 45vw;
+    }
+    
+    #checklabel1{
+        position: absolute;
+        direction: rtl;
+        top: 53vw;
+        right: 6vw;
+        font-size: 3vw
+    }
+    
+    #checklabel2{
+        position: absolute;
+        direction: rtl;
+        top: 60vw;
+        right: 6vw;
+        font-size: 3vw;
+        width: 70vw;
+    }
+    
+    #send{
+        position: relative;
+        border-style: none;
+        text-align: center;
+        width: 77vw;
+        top: 20vw;
+        background-color: #48b1b8;
+        color: white;
+        font-size: 4.5vw;
+        line-height: 10vw; 
+        left: 3vw;
+    }
+    
+
+    .footer{
+
+        border-bottom-style: solid;
+        position: absolute;
+        background-color: transparent;
+        left: 10vw;
+        top: 210vw;
+        height: 20vw;
+        color: white;
+        width: 90%;
+        border-bottom-color: white;
+        padding-right: 0;
+    }
+
+    #foot_logo{
+        position: absolute;
+        top: 0vw;
+        left: 58vw;
+        width: 5vw;
+        background-size: auto;
+        
+    }
+    #disclaimer{
+
+        position: relative;
+        direction: rtl;
+        text-align: right;
+        font-size: 2.5vw;
+        width: 55vw;
+        right: 35vw;
+    }
+    #breakline{
+    display: block;
+    }
+}
+
+/*************************************************************************/
+
+@media only screen and (max-width:380px) and (min-width:341px) {
+  /* For mobile phones: */
+    
+    *:not(i):not(.fa fa-phone){
+        font-family: arial !important;
+    }
+    
+    html{
+         background: url(images/mobile.jpg) no-repeat center fixed;
+        background-size: 100% 100%; 
+    }
+    
+    body{
+        
+        width: 100%;
+        height: 100%;
+    }
+    
+    .wrapper{
+        background: transparent;
+        width: 50%;
+        top:0;
+    }
+    .wrapper-text{
+        border-color: aqua;
+        border-style: dashed;
+        position: relative;
+        width: 45%;
+        left: 65vw;
+        top:0;
+    }
+    
+    #baner{
+        text-align: center;
+        position: absolute;
+        width: 20%;
+        top:0;
+        left: 5vw;
+        margin-right: 0;
+        font-family: arial;
+        font-size: 10vw;
+        font-weight: 750;
+        margin-top: 5%;
+        margin-left: 0;
+        margin-bottom: 5%;
+        line-height: 6.5vw;
+    }
+
+    h3{
+        direction: rtl;
+        text-align: center;
+        position: absolute;
+        top: 18vw;
+        left: 8vw;
+        font-stretch: ultra-expanded;
+        margin-bottom: 0;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: white;
+        color: black;
+        font-size: 3vw;
+        font-weight: 600;
+        
+    }
+
+    h2{
+        direction: rtl;
+        text-align: center;
+        position: relative;
+        top: 22vw;
+        left: 10vw;
+        font-weight: 700;
+        font-size: 11vw;
+    }
+
+    h4{
+        direction: rtl;
+        text-align: right;
+        position: relative;
+        width: 150%;
+        top: 22vw;
+        right: 2vw;
+        font-size: 4vw;
+        font-weight: 450;
+    }
+
+    #span1{
+        position: relative;
+        font-size: 3.5vw;
+        bottom: 5vw;
+    }
+    #span2{
+        font-size: 2.5vw;
+        right: 0.5vw;
+        top: 0.02vw;
+    }
+    
+    .wrapper-form{
+        border-color: aqua;
+        border-style: dashed;
+        position: absolute;
+        width: 70%;
+        left: 15vw;
+        top: 70vw;
+        background-color: transparent;
+    }
+    
+    #logo{
+        visibility: collapse;
+        visibility: hidden;
+    }
+    
+    #logom{
+
+        visibility: visible;
+        position: absolute;
+        right: 0.9vw;
+        margin: 0 0 0 0;
+        width: 30vw;
+        top: -2vw;        
+    }
+    
+
+    #call{
+        text-decoration: none;
+        color: white;
+        direction: rtl;
+        visibility: visible;
+        position: absolute;
+        color: white;
+        text-decoration-line: none; 
+        top: 20vw;
+        left: 0vw;
+        border-style: none;
+        text-align: center;
+        width: 100%;
+        background-color: #48b1b8;
+        cursor: pointer;
+        line-height: 7vw;
+        font-size: 6.5vw;
+    }
+    
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+     a:visited { text-decoration: none; color:white; }
+    a:hover { text-decoration: none; color:white; }
+    a:focus { text-decoration: none; color:white; }
+    a:hover, a:active { text-decoration: none; color:white}
+    
+    .fa fa-phone{
+        direction: ltr;
+        text-decoration-line: none;
+    }
+    
+    #details{
+        direction: rtl;
+        position: absolute;
+        top: 8vw;
+        left: 15vw;
+        width: 70%;
+        font-size: 4vw;
+        line-height: 2vw;
+        background-color: black;
+        margin: 0 0 0 0;
+    }
+    
+    form{
+        border-color: aqua;
+        border-style: dashed;
+        direction: rtl;
+        position: absolute;
+        top: 20vw;
+        left: 0vw;
+        height: 60%;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        background-color: transparent;
+        line-height: 7vw;
+    }
+
+    .input-text{
+        position: relative;
+        direction: rtl;
+        text-align: center;
+        width: 100%;
+        top: 6vw;
+        left: 0vw;
+        line-height: 7vw;
+        background-color: white;
+        margin-top: 3%;
+        font-size: 4.5vw;
+
+    }
+
+    
+    #nameReq{
+    visibility: hidden;
+    position: absolute;
+    top:38vw;
+    left: 5vw;
+    color: red;
+}
+
+#telReq{
+    visibility:hidden;
+    position: absolute;
+    top:48.5vw;
+    left: 5vw;
+    color: red;
+}
+
+    #check1{
+        direction: rtl;
+        position: absolute;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        top: 45vw;
+        font-size: 2vw;
+        width: 5%;
+        right: 2vw;
+    }
+    #check2{
+        direction: rtl;
+        position: absolute;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        top: 50vw;
+        font-size: 2vw;
+        width: 5%;
+        right: 2vw;
+    }
+    
+    #checklabel1{
+        position: absolute;
+        direction: rtl;
+        top: 40vw;
+        right: 6vw;
+        font-size: 3vw
+    }
+    
+    #checklabel2{
+        position: absolute;
+        direction: rtl;
+        top: 45vw;
+        right: 6vw;
+        font-size: 3vw;
+        width: 70vw;
+    }
+    
+    #send{
+        position: relative;
+        border-style: none;
+        text-align: center;
+        width: 100%;
+        top: 15vw;
+        background-color: #48b1b8;
+        color: white;
+        font-size: 4.5vw;
+        line-height: 7vw; 
+        left: 0vw;
+    }
+    
+
+    .footer{
+        border-color: aqua;
+        border-style: dashed;
+        border-bottom-style: solid;
+        position: absolute;
+        background-color: transparent;
+        left: 15vw;
+        top: 155vw;
+        height: 15vw;
+        color: white;
+        width: 70%;
+        border-bottom-color: white;
+        padding-right: 0;
+    }
+
+    #foot_logo{
+        position: absolute;
+        top: 2vw;
+        left: 45vw;
+        
+    }
+    #disclaimer{
+
+        position: relative;
+        direction: rtl;
+        text-align: right;
+        font-size: 2vw;
+        width: 45vw;
+        right: 25vw;
+        top: 3vw;
+    }
+    #breakline{
+    display: block;
+    }
+}
+
+/*************************************************************************/
+
+@media only screen and (max-width:440px) and (min-width:381px) {
+  /* For mobile phones: */
+    
+    *:not(i):not(.fa fa-phone){
+        font-family: arial !important;
+    }
+    
+    html{
+         background: url(images/mobile.jpg) no-repeat center fixed;
+        background-size: 100% 100%; 
+    }
+    
+    body{
+        
+        width: 100%;
+        height: 100%;
+    }
+    
+    .wrapper{
+        background: transparent;
+        width: 50%;
+        top:0;
+    }
+    .wrapper-text{
+        border-color: aqua;
+        border-style: dashed;
+        position: relative;
+        width: 45%;
+        left: 65vw;
+        top:0;
+    }
+    
+    #baner{
+        text-align: center;
+        position: absolute;
+        width: 20%;
+        top:0;
+        left: 5vw;
+        margin-right: 0;
+        font-family: arial;
+        font-size: 10vw;
+        font-weight: 750;
+        margin-top: 5%;
+        margin-left: 0;
+        margin-bottom: 5%;
+        line-height: 6.5vw;
+    }
+
+    h3{
+        direction: rtl;
+        text-align: center;
+        position: absolute;
+        top: 18vw;
+        left: 8vw;
+        font-stretch: ultra-expanded;
+        margin-bottom: 0;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: white;
+        color: black;
+        font-size: 3vw;
+        font-weight: 600;
+        
+    }
+
+    h2{
+        direction: rtl;
+        text-align: center;
+        position: relative;
+        top: 22vw;
+        left: 10vw;
+        font-weight: 700;
+        font-size: 11vw;
+    }
+
+    h4{
+        direction: rtl;
+        text-align: right;
+        position: relative;
+        width: 150%;
+        top: 22vw;
+        right: 2vw;
+        font-size: 4vw;
+        font-weight: 450;
+    }
+
+    #span1{
+        position: relative;
+        font-size: 3.5vw;
+        bottom: 5vw;
+    }
+    #span2{
+        font-size: 2.5vw;
+        right: 0.5vw;
+        top: 0.02vw;
+    }
+    
+    .wrapper-form{
+        border-color: aqua;
+        border-style: dashed;
+        position: absolute;
+        width: 70%;
+        left: 15vw;
+        top: 60vw;
+        background-color: transparent;
+    }
+    
+    #logo{
+        visibility: collapse;
+        visibility: hidden;
+    }
+    
+    #logom{
+
+        visibility: visible;
+        position: absolute;
+        right: 0.9vw;
+        margin: 0 0 0 0;
+        width: 30vw;
+        top: -2vw;        
+    }
+    
+
+    #call{
+        text-decoration: none;
+        color: white;
+        direction: rtl;
+        visibility: visible;
+        position: absolute;
+        color: white;
+        text-decoration-line: none; 
+        top: 20vw;
+        left: 0vw;
+        border-style: none;
+        text-align: center;
+        width: 100%;
+        background-color: #48b1b8;
+        cursor: pointer;
+        line-height: 7vw;
+        font-size: 6.5vw;
+    }
+    
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+     a:visited { text-decoration: none; color:white; }
+    a:hover { text-decoration: none; color:white; }
+    a:focus { text-decoration: none; color:white; }
+    a:hover, a:active { text-decoration: none; color:white}
+    
+    .fa fa-phone{
+        direction: ltr;
+        text-decoration-line: none;
+    }
+    
+    #details{
+        direction: rtl;
+        position: absolute;
+        top: 8vw;
+        left: 15vw;
+        width: 70%;
+        font-size: 4vw;
+        line-height: 2vw;
+        background-color: black;
+        margin: 0 0 0 0;
+    }
+    
+    form{
+        border-color: aqua;
+        border-style: dashed;
+        direction: rtl;
+        position: absolute;
+        top: 20vw;
+        left: 0vw;
+        height: 60%;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        background-color: transparent;
+        line-height: 7vw;
+    }
+
+    .input-text{
+        position: relative;
+        direction: rtl;
+        text-align: center;
+        width: 100%;
+        top: 6vw;
+        left: 0vw;
+        line-height: 7vw;
+        background-color: white;
+        margin-top: 3%;
+        font-size: 4.5vw;
+
+    }
+
+    
+     #nameReq{
+    visibility: hidden;
+    position: absolute;
+    top:40vw;
+    left: 1vw;
+    color: red;
+}
+
+#telReq{
+    visibility:hidden;
+    position: absolute;
+    top:50.5vw;
+    left: 1vw;
+    color: red;
+}
+
+
+    #check1{
+        direction: rtl;
+        position: absolute;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        top: 45vw;
+        font-size: 2vw;
+        width: 5%;
+        right: 2vw;
+    }
+    #check2{
+        direction: rtl;
+        position: absolute;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        top: 50vw;
+        font-size: 2vw;
+        width: 5%;
+        right: 2vw;
+    }
+    
+    #checklabel1{
+        position: absolute;
+        direction: rtl;
+        top: 40vw;
+        right: 6vw;
+        font-size: 3vw
+    }
+    
+    #checklabel2{
+        position: absolute;
+        direction: rtl;
+        top: 45vw;
+        right: 6vw;
+        font-size: 3vw;
+        width: 70vw;
+    }
+    
+    #send{
+        position: relative;
+        border-style: none;
+        text-align: center;
+        width: 100%;
+        top: 15vw;
+        background-color: #48b1b8;
+        color: white;
+        font-size: 4.5vw;
+        line-height: 7vw; 
+        left: 0vw;
+    }
+    
+
+    .footer{
+        border-color: aqua;
+        border-style: dashed;
+        border-bottom-style: solid;
+        position: absolute;
+        background-color: transparent;
+        left: 15vw;
+        top: 140vw;
+        height: 15vw;
+        color: white;
+        width: 70%;
+        border-bottom-color: white;
+        padding-right: 0;
+    }
+
+    #foot_logo{
+        position: absolute;
+        top: 4vw;
+        left: 45vw;
+        
+    }
+    #disclaimer{
+
+        position: relative;
+        direction: rtl;
+        text-align: right;
+        font-size: 2vw;
+        width: 45vw;
+        right: 25vw;
+        top: 3vw;
+    }
+    #breakline{
+    display: block;
+    }
+}
+
+/*************************************************************************/
+
+@media only screen and (max-width:770px) and (min-width:441px) {
+  /* For mobile phones: */
+    
+    *:not(i):not(.fa fa-phone){
+        font-family: arial !important;
+    }
+
+body{
+    font-family: arial;
     margin: 0;
 }
 
@@ -128,16 +1252,18 @@ form{
 #nameReq{
     visibility: hidden;
     position: absolute;
-    top:13.5vw;
-    left: 2vw;
+    top:24vw;
+    left: 1.8vw;
     color: red;
+    font-size: 1.5vw;
 }
 
 #telReq{
     visibility:hidden;
     position: absolute;
-    top:16.5vw;
-    left: 2vw;
+    top:27vw;
+    left: 1.8vw;
+    font-size: 1.5vw;
     color: red;
 }
 
@@ -153,10 +1279,10 @@ form{
 }
 
 #logo{
-    position: relative;
-    left: 7.5vw;
+    position: absolute;
+    left: 5vw;
     top: 10%;
-    width: 9vw;
+    width:auto;
 }
 
 #details{
@@ -170,6 +1296,7 @@ form{
     position: absolute;
     right: 5%;
     margin-top: 5%;
+    width: 1vw;
 }
 
 #checklabel1{
@@ -212,237 +1339,442 @@ p{
     left: 6vw;
     width: 1vw;
 }
+}
+/*************************************************************************/
 
-@media only screen and (max-width:740px) {
-  /* For mobile phones: */
-     *:not(i):not(.fa fa-phone){
+@media only screen and (max-width:1200px) and (min-width:771px) {
+  /* For laptops: */
+    
+    *:not(i):not(.fa fa-phone){
         font-family: arial !important;
     }
-    
-    html{
-        background: url(images/mobile.jpg) no-repeat center fixed;
-        background-size: 100% 100%; 
-    }
-    .wrapper{
-        background: transparent;
-    }
-    .wrapper-text{
-        position: absolute;
-        width: 50%;
-        left: 50%;
-        top:0;
-    }
-    
-    #baner{
-        text-align: center;
-        position: absolute;
-        width: 50%;
-        top:0;
-        left: 50%;
-        margin-right: 0;
-        font-family: arial;
-        font-size: 6.8vw;
-        font-weight: 750;
-        margin-top: 5%;
-        margin-left: 0;
-        margin-bottom: 5%;
-        line-height: 6vw;
-    }
 
-    h3{
-        direction: rtl;
-        text-align: center;
-        position: relative;
-        top: 17vw;
-        left: 24vw;
-        font-stretch: ultra-expanded;
-        margin-bottom: 0;
-        width: 25vw;
-        padding-left: 0;
-        padding-right: 0;
-        background-color: white;
-        color: black;
-        font-size: 3vw;
-        font-weight: 600;
-        
-    }
-
-    h2{
-        direction: rtl;
-        text-align: center;
-        position: relative;
-        top: 17vw;
-        left: 9vw;
-        font-weight: 700;
-        font-size: 11vw;
-    }
-
-    h4{
-        direction: rtl;
-        text-align: center;
-        position: relative;
-        top: 16vw;
-        left: 10vw;
-        font-size: 4vw;
-        font-weight: 500;
-    }
-
-    #span1{
-        position: relative;
-        font-size: 3.5vw;
-        bottom: 5vw;
-    }
-    #span2{
-        font-size: 2.5vw;
-        right: 0.5vw;
-        top: 0.02vw;
-    }
-    
-    .wrapper-form{
-        position: absolute;
-        width: 100%;
-        top: 70vw;
-        background-color: transparent;
-    }
-    form{
-        direction: rtl;
-        position: absolute;
-        top: 45vw;
-        left: 10%;
-        text-align: center;
-        align-content: center;
-        width: 70%;
-        background-color: transparent;
-        line-height: 7vw;
-    }
-    .input-text{
-        position: relative;
-        direction: rtl;
-        text-align: center;
-        width: 99%;
-        background-color: white;
-        margin-top: 2vw;
-        font-size: 5vw;
-        left: 5%;
-        line-height: 9vw;
-    }
-
-    #send{
-        position: absolute;
-        border-style: none;
-        text-align: center;
-        width: 100%;
-        background-color: #48b1b8;
-        margin-top: 10vw;
-        margin-bottom: 5%;  
-        font-size: 5vw;
-        left: 5%;
-        line-height: 9vw;   
-    }
-    #logo{
-        position: relative;
-        left: 35vw;
-        margin: 0 0 0 0;
-        width: auto;
-        top: 25vw;        
-    }
-    
-    #call{
-        direction: rtl;
-        visibility: visible;
-        position: absolute;
-        color: white;
-        text-decoration-line: none; 
-        top: 35vw;
-        right: 16vw;
-        border-style: none;
-        text-align: center;
-        width: 70%;
-        background-color: #48b1b8;
-        cursor: pointer;
-        line-height: 7vw;
-        font-size: 6.5vw;
-    }
-    
-    a:visited { text-decoration: none; color:white; }
-    a:hover { text-decoration: none; color:white; }
-    a:focus { text-decoration: none; color:white; }
-    a:hover, a:active { text-decoration: none; color:white}
-    
-    .fa fa-phone{
-        direction: ltr;
-        text-decoration-line: none;
-    }
-    
-    #details{
-        text-align: center;
-        position: relative;
-        margin-left: 5%;
-        font-size: 5vw;
-        top: 1vw;
-    }
-    #check1{
-        position: absolute;
-        top: 29vw;
-        right: 0;
-    }
-    #check2{
-        position: absolute;
-        top: 33vw;
-        right: 0;
-    }
-    #checklabel1{
-        text-align: right;   
-        position: absolute;
-        top: 29vw;
-        right: 5vw;
-        margin: 1.8vw 0 0 0;
-        font-size: 2vw;
-    }
-    
-    #checklabel2{
-        text-align: right;   
-        position: absolute;
-        top: 33vw;
-        right: 5vw;
-        margin: 1.8vw 0 0 0;
-        font-size: 2vw;
-    }
-
-    .footer{
-        position: absolute;
-        bottom: 3vw;
-        margin-bottom: 3vw;
-        margin-left: 14vw;
-        color: white;
-        width: 70%;
-        border-bottom-color: white;
-        border-bottom-style: outset;
-        padding-right: 0;
-        padding-top: 0;
-    }
-
-    #foot_logo{
-        position: absolute;
-        left: 53vw;
-        margin-right: 0;
-        width: 75vw;
-        bottom: 3.3vw;
-        
-    }
-    
-    p{
-        bottom: 3vw;
-        position: absolute;
-        direction: rtl;
-        text-align: right;
-        font-size: 1.8vw;
-        width: 55vw;
-        right: 19vw;
-    }
-    #breakline{
-        display: block;
+body{
+    font-family: arial;
+    margin: 0;
 }
 
-    
+.wrapper{
+    background-color: #cccccc;
 }
+
+.wrapper-text{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20.5%;
+    width: 18%;
+    height: 37%;
+    color: white;
+}
+
+#baner{
+    text-align: left;
+    position: relative;
+    width: 100%;
+    top:2%;
+    left: 0;
+    font-family: arial;
+    font-size: 4.8vw;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-bottom: 5%;
+    line-height: 3.9vw;
+}
+
+h3{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    width: 75%;
+    background-color: white;
+    color: black;
+    top: 8%;
+    left: 8%;
+    margin-left: 0;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+h2{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 6vw;
+    font-stretch: ultra-condensed;
+}
+
+h4{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#span1{
+    font-size: 2vw;
+}
+#span2{
+    font-size: 0.9vw;
+}
+
+.wrapper-form{
+    text-align: center;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20.3%;
+    color: white;
+}
+#call{
+    visibility: hidden;
+    visibility: collapse;
+}
+
+form{
+    direction: rtl;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    text-align: center;
+    align-content: center;
+    width: 75%;
+    background-color: black;
+}
+
+.input-text{
+    position: relative;
+    direction: rtl;
+    text-align: center;
+    width: 99%;
+    line-height: 2vw;
+    background-color: white;
+    margin-top: 3%;
+    font-size: 1.01vw;
+}
+
+#nameReq{
+    visibility: hidden;
+    position: absolute;
+    top:18.5vw;
+    left: 2vw;
+    color: red;
+    font-size: 1.2vw;
+}
+
+#telReq{
+    visibility:hidden;
+    position: absolute;
+    top:21.5vw;
+    left: 2vw;
+    color: red;
+    font-size: 1.2vw;
+}
+
+#send{
+    border-style: none;
+    text-align: center;
+    width: 15.5vw;
+    line-height: 2vw;
+    background-color: #48b1b8;
+    margin-top: 3%;
+    margin-bottom: 5%;  
+    font-size: 1.01vw;
+}
+
+#logo{
+    position: absolute;
+    left: 5vw;
+    top: 10%;
+    width:auto;
+}
+
+#details{
+    text-align: left;
+    position: relative;
+    width: 10vw;
+    margin-bottom: 30%;
+    font-size: 1.005vw;
+}
+#check1,#check2{
+    position: absolute;
+    right: 5%;
+    margin-top: 5%;
+    width: 1vw;
+}
+
+#checklabel1{
+    text-align: right;   
+    position: absolute;
+    right: 15%;
+    margin-top: 5%;
+    font-size: 0.68vw;
+}
+#checklabel2{
+    text-align: right;   
+    position: absolute;
+    right: 15%;
+    margin-top: 5%;
+    font-size: 0.68vw;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 95%;
+}
+
+p{
+    direction: rtl;
+    text-align: right;
+    float: right;
+    font-size: 1vw;
+}
+
+#breakline{
+    display: none;
+}
+
+#foot_logo{
+    position: absolute;
+    bottom: 50%;
+    left: 6vw;
+    width: 1vw;
+}
+}
+
+/*************************************************************************/
+
+@media only screen and (max-width:1500px) and (min-width:1201px) {
+  /* For laptops: */
+    
+    *:not(i):not(.fa fa-phone){
+        font-family: arial !important;
+    }
+
+body{
+    font-family: arial;
+    margin: 0;
+}
+
+.wrapper{
+    background-color: #cccccc;
+}
+
+.wrapper-text{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20.5%;
+    width: 18%;
+    height: 37%;
+    color: white;
+}
+
+#baner{
+    text-align: left;
+    position: relative;
+    width: 100%;
+    top:2%;
+    left: 0;
+    font-family: arial;
+    font-size: 4.8vw;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-bottom: 5%;
+    line-height: 3.9vw;
+}
+
+h3{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    width: 75%;
+    background-color: white;
+    color: black;
+    top: 8%;
+    left: 8%;
+    margin-left: 0;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+h2{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 6vw;
+    font-stretch: ultra-condensed;
+}
+
+h4{
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#span1{
+    font-size: 2vw;
+}
+#span2{
+    font-size: 0.9vw;
+}
+
+.wrapper-form{
+    text-align: center;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20.3%;
+    color: white;
+}
+#call{
+    visibility: hidden;
+    visibility: collapse;
+}
+
+form{
+    direction: rtl;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    text-align: center;
+    align-content: center;
+    width: 75%;
+    background-color: black;
+}
+
+.input-text{
+    position: relative;
+    direction: rtl;
+    text-align: center;
+    width: 99%;
+    line-height: 2vw;
+    background-color: white;
+    margin-top: 3%;
+    font-size: 1.01vw;
+}
+
+#nameReq{
+    visibility: hidden;
+    position: absolute;
+    top:15vw;
+    left: 2vw;
+    color: red;
+    font-size: 1.2vw;
+}
+
+#telReq{
+    visibility:hidden;
+    position: absolute;
+    top:18vw;
+    left: 2vw;
+    color: red;
+    font-size: 1.2vw;
+}
+
+#send{
+    border-style: none;
+    text-align: center;
+    width: 15.5vw;
+    line-height: 2vw;
+    background-color: #48b1b8;
+    margin-top: 3%;
+    margin-bottom: 5%;  
+    font-size: 1.01vw;
+}
+
+#logo{
+    position: absolute;
+    left: 5vw;
+    top: 10%;
+    width:auto;
+}
+
+#details{
+    text-align: left;
+    position: relative;
+    width: 10vw;
+    margin-bottom: 30%;
+    font-size: 1.005vw;
+}
+#check1,#check2{
+    position: absolute;
+    right: 5%;
+    margin-top: 5%;
+    width: 1vw;
+}
+
+#checklabel1{
+    text-align: right;   
+    position: absolute;
+    right: 15%;
+    margin-top: 5%;
+    font-size: 0.68vw;
+}
+#checklabel2{
+    text-align: right;   
+    position: absolute;
+    right: 15%;
+    margin-top: 5%;
+    font-size: 0.68vw;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 95%;
+}
+
+p{
+    direction: rtl;
+    text-align: right;
+    float: right;
+    font-size: 1vw;
+}
+
+#breakline{
+    display: none;
+}
+
+#foot_logo{
+    position: absolute;
+    bottom: 50%;
+    left: 6vw;
+    width: 1vw;
+}
+}
+
